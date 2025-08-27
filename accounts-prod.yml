@@ -10,7 +10,7 @@ accounts:
   message: "Welcome to accounts microservive related PRODAPIs "
   contactDetails:
     name: "Jack Doe - Business REpresentative"
-    email: "a8862316654d4df979b588f74ad87a7e4de0f4f013f241d154a8bd2f83d6eb80d7038f8b67529e7985d67646c57cfe9e"
+    email: "{cipher}a8862316654d4df979b588f74ad87a7e4de0f4f013f241d154a8bd2f83d6eb80d7038f8b67529e7985d67646c57cfe9e"
   onCallSupport:
     - (801) 888-2345
     - (801) 888-3498
