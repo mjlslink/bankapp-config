@@ -1,0 +1,35 @@
+
+
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8070/eureka/
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lowerCaseServiceId: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    gateways:
+      enabled: true
+  info:
+    env:
+      enabled: true
+
+logging:
+  level:
+    com:
+      enceladus:
+        gatewayserver: DEBUG
+
